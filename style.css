@@ -98,4 +98,58 @@ a {
 
 a:hover {
    text-decoration: none;
+    color: rgb(168, 237, 247);
+}
+
+.container-digital {
+   display: grid;
+    gap: 10px;
+   grid-template-columns: 1fr 3fr;
+   grid-template-rows: 3fr 1fr 20fr 5fr 3fr;
+   grid-template-areas:
+
+    "header-digital header-digital"
+    "information-digital content-digital"
+    "information-digital gallery-digital"
+    "information-digital gallery-digital"
+    "footer-digital footer-digital";
+
+}
+
+
+.container-digital {
+    display: grid;
+    
+}
+
+.header-digital {
+    grid-area: header-digital;
+    background-color:rgb(69, 102, 211);
+    
+}
+
+
+.information-digital {
+    grid-area: information-digital;
+    background-color:  rgb(233, 182, 41);
+    
+}
+
+.content-digital {
+    grid-area: content-digital;
+    background-color: #8c3ec0;
+    
+}
+
+.gallery-digital {
+    grid-area: gallery-digital;
+    background-color: #db5050;
+   
+}
+
+.footer-digital {
+    grid-area: footer-digital;
+    background-color: #5b993c;
+
+  
 }
