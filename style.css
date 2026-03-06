@@ -122,6 +122,44 @@ a:hover {
     
 }
 
+
+ ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+ul li {
+  float: left;
+  border-right:1px solid #000000;
+}
+
+ul li:last-child {
+  border-right: none;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+ul li a:hover:not(.active) {
+  background-color: #808080;
+}
+
+
+
+ul li a.active {
+  background-color: #850000;
+}
+
 .header-digital {
     grid-area: header-digital;
     background-color:rgb(69, 102, 211);
