@@ -104,8 +104,8 @@ a:hover {
 .container-digital {
    display: grid;
     gap: 10px;
-   grid-template-columns: 1fr 3fr;
-   grid-template-rows: 3fr 1fr 20fr 5fr 3fr;
+   grid-template-columns: 1fr 2fr;
+   grid-template-rows: 1fr 1fr 4fr 1fr 1fr;
    grid-template-areas:
 
     "header-digital header-digital"
@@ -157,8 +157,8 @@ a:hover {
 .container-painting {
    display: grid;
     gap: 10px;
-   grid-template-columns: 1fr 3fr;
-   grid-template-rows: 3fr 1fr 20fr 5fr 3fr;
+   grid-template-columns: 1fr 2fr;
+   grid-template-rows: 1fr 1fr 4fr 1fr 1fr;
    grid-template-areas:
 
     "header-painting header-painting"
@@ -171,31 +171,31 @@ a:hover {
 
 .header-painting {
     grid-area: header-painting;
-    background-color:rgb(69, 102, 211);
+    background-color:rgb(109, 66, 37);
     
 }
 
 .information-painting {
     grid-area: information-painting;
-    background-color:  rgb(233, 182, 41);
+    background-color:  rgb(223, 191, 105);
     
 }
 
 .content-painting {
     grid-area: content-painting;
-    background-color: #8c3ec0;
+    background-color: #748a97;
     
 }
 
 .gallery-painting {
     grid-area: gallery-painting;
-    background-color: #db5050;
+    background-color: #658b6e;
    
 }
 
 .footer-painting {
     grid-area: footer-painting;
-    background-color: #5b993c;
+    background-color: #5b418a;
 
   
 }
@@ -203,8 +203,8 @@ a:hover {
 .container-photography {
    display: grid;
     gap: 10px;
-   grid-template-columns: 1fr 3fr;
-   grid-template-rows: 3fr 1fr 20fr 5fr 3fr;
+   grid-template-columns: 1fr 2fr;
+   grid-template-rows: 1fr 1fr 4fr 1fr 1fr;
    grid-template-areas:
 
     "header-photography header-photography"
@@ -249,8 +249,8 @@ a:hover {
 .container-sculpture {
    display: grid;
     gap: 10px;
-   grid-template-columns: 1fr 3fr;
-   grid-template-rows: 3fr 1fr 20fr 5fr 3fr;
+   grid-template-columns: 1fr 2fr;
+   grid-template-rows: 1fr 1fr 4fr 1fr 1fr;
    grid-template-areas:
 
     "header-sculpture header-sculpture"
