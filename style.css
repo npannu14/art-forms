@@ -162,32 +162,32 @@ ul li a.active {
 
 .header-digital {
     grid-area: header-digital;
-    background-color:rgb(69, 102, 211);
+    background-color:rgb(185, 219, 206);
     
 }
 
 
 .information-digital {
     grid-area: information-digital;
-    background-color:  rgb(233, 182, 41);
+    background-color:  rgb(245, 208, 140);
     
 }
 
 .content-digital {
     grid-area: content-digital;
-    background-color: #8c3ec0;
+    background-color: #cc91f3;
     
 }
 
 .gallery-digital {
     grid-area: gallery-digital;
-    background-color: #db5050;
+    background-color: #ffafaf;
    
 }
 
 .footer-digital {
     grid-area: footer-digital;
-    background-color: #5b993c;
+    background-color: #afe693;
 
   
 }
@@ -254,31 +254,31 @@ ul li a.active {
 
 .header-photography {
     grid-area: header-photography;
-    background-color:rgb(69, 102, 211);
+    background-color:rgb(122, 72, 43);
     
 }
 
 .information-photography {
     grid-area: information-photography;
-    background-color:  rgb(233, 182, 41);
+    background-color:  rgb(255, 255, 255);
     
 }
 
 .content-photography {
     grid-area: content-photography;
-    background-color: #8c3ec0;
+    background-color: #ad4015;
     
 }
 
 .gallery-photography {
     grid-area: gallery-photography;
-    background-color: #db5050;
+    background-color: #000000;
    
 }
 
 .footer-photography {
     grid-area: footer-photography;
-    background-color: #5b993c;
+    background-color: #f5b323;
 
   
 }
@@ -300,31 +300,31 @@ ul li a.active {
 
 .header-sculpture {
     grid-area: header-sculpture;
-    background-color:rgb(69, 102, 211);
+    background-color:rgb(207, 201, 193);
     
 }
 
 .information-sculpture {
     grid-area: information-sculpture;
-    background-color:  rgb(233, 182, 41);
+    background-color:  rgb(73, 73, 73);
     
 }
 
 .content-sculpture {
     grid-area: content-sculpture;
-    background-color: #8c3ec0;
+    background-color: #332404;
     
 }
 
 .gallery-sculpture {
     grid-area: gallery-sculpture;
-    background-color: #db5050;
+    background-color: #4d3333;
    
 }
 
 .footer-sculpture {
     grid-area: footer-sculpture;
-    background-color: #5b993c;
+    background-color: #5c5c5c;
 
   
 }
